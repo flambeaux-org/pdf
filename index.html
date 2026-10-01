@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flambeaux — PDF</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <strong>FLAMBEAUX</strong>
+
+    <button id="prev">←</button>
+
+    <span>
+      Page <span id="page-num">1</span>
+      /
+      <span id="page-count">-</span>
+    </span>
+
+    <button id="next">→</button>
+
+    <button id="zoom-out">−</button>
+    <button id="zoom-in">+</button>
+  </header>
+
+  <main id="viewer">
+    <p id="loading">Chargement…</p>
+  </main>
+
+  <script type="module" src="app.js"></script>
+
+</body>
+</html>
